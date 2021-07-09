@@ -314,12 +314,12 @@ section .button button:hover{
 }
 
 /* My Services CSS */
-.services .boxes{
+.projects .boxes{
    display:flex; 
    flex-wrap: wrap;
    justify-content:space-between;
 }
-.services .boxes .box{
+.projects .boxes .box{
   margin:20px 0;
   width:calc(100% / 3 - 20px);
   text-align: center;
@@ -329,11 +329,11 @@ section .button button:hover{
   cursor:default;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover{
+.projects .boxes .box:hover{
   background: var(--primary-color);
   color:var(--white-color);
 }
-.services .boxes .box .icon{
+.projects .boxes .box .icon{
   height:50px;
   width:50px;
   background: var(--primary-color);
@@ -349,8 +349,8 @@ section .button button:hover{
   background:var(--white-color);
   color:var(--primary-color);
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.projects .boxes .box:hover .topic,
+.projects .boxes .box:hover p{
   color:var(--white-color);
   transition: all 0.4s ease;
 }
@@ -422,7 +422,7 @@ footer .text span a:hover{
     width:90%;
     margin:40px 0;
   }
-  .services .boxes .box{
+  .projects .boxes .box{
     margin:20px 0;
     width:calc(100% / 2 - 20px);
   }
